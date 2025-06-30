@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Subhendu's Portfolio</div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="left">
+          Hi, My name is <span class="name">Subhendu</span>
+          <div>And I am A Passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="right">
+          <img src="bg.svg" alt="Developer Image" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection" id="projects">
+        <span>What I Have Done So Far</span>
+        <h1>Work Experience</h1>
+
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>Project One</h3>
+            <div class="project-box">
+              <a href="/"><p class="project">Interactive Quiz Application.</p></a><a href="/"><img src="Interactive-Quiz-App.png" alt="logo"></a>
+              <span></span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>Project Two</h3>
+            <div class="project-box">
+              <a href="/"><p class="project">Real-Time Chat Application.</p></a><a href="/"><img src="real-time-chat-app.png" alt="logo"></a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>Project Three</h3>
+            <div class="project-box">
+              <a href="/"><p class="project">E-Learning Platform UI</p></a><a href="/"><img src="e-learning.png" alt="logo"></a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>Project Four</h3>
+            <div class="project-box">
+              <a href="/"><p class="project">Personal Portfolio Website</p></a><a href="/"><img src="portfolio-logo.png" alt="logo"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: subhenduss123@google.com</p>
+        <p>Phone No.: 8114631916</p>
+        <div class="social">
+          <a href="https://www.facebook.com/subhendu.sahu.357/"><img src="facebook icon.png" alt="logo"></a>
+          <a href="https://www.instagram.com/blessed_moon_123?igsh=N2d3YW45bXByeWRu"><img src="Instagram icon.png" alt="logo"></a>
+          <a href="https://www.linkedin.com/in/subhendu-sahu-757626283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="linkedIn.png" alt="logo"></a>
+        </div>
+      </section>
+
+      <footer>
+        <p>© 2025 Subhendu Portfolio</p>
+      </footer>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Designer ", "Web Developer "],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
